@@ -1,0 +1,22 @@
+{
+	"schemaVersion": 1,
+	"id": "angrybears",
+	"version": "${version}",
+	"name": "Angry Bears",
+	"description": "Bears are mad",
+	"authors": [
+		"Linguardium"
+	],
+	"license": "MIT",
+	"icon": "assets/angrybears/icon.png",
+	"environment": "*",
+	"entrypoints": {},
+	"mixins": [
+		"angrybears.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.20.1",
+		"java": ">=17"
+	}
+}
